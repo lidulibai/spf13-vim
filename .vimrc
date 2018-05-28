@@ -713,6 +713,14 @@
         if count(g:spf13_bundle_groups, 'youcompleteme')
             let g:acp_enableAtStartup = 0
 
+            nnoremap <leader>jd :YcmCompleter GoTo<CR>
+            nnoremap <leader>ji :YcmCompleter OrganizeImports<CR>
+            nnoremap <leader>jf :YcmCompleter Format<CR>
+            nnoremap <leader>jx :YcmCompleter FixIt<CR>
+            nnoremap <leader>jr :YcmCompleter RefactorRename 
+
+            let g:syntastic_java_checkers = []
+
             " enable completion from tags
             let g:ycm_collect_identifiers_from_tags_files = 1
 

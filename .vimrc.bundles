@@ -145,6 +145,8 @@
             Bundle 'reedes/vim-textobj-sentence'
             Bundle 'reedes/vim-textobj-quote'
             Bundle 'reedes/vim-wordy'
+            Bundle 'junegunn/goyo.vim'
+            Bundle 'junegunn/limelight.vim'
         endif
     " }
 
@@ -177,6 +179,7 @@
             Bundle 'Valloric/YouCompleteMe'
             Bundle 'SirVer/ultisnips'
             Bundle 'honza/vim-snippets'
+            Bundle 'ternjs/tern_for_vim'
         elseif count(g:spf13_bundle_groups, 'neocomplcache')
             Bundle 'Shougo/neocomplcache'
             Bundle 'Shougo/neosnippet'
@@ -248,6 +251,7 @@
             Bundle 'gorodinskiy/vim-coloresque'
             Bundle 'tpope/vim-haml'
             Bundle 'mattn/emmet-vim'
+            Bundle 'bonsaiben/bootstrap-snippets'
         endif
     " }
 
@@ -293,6 +297,12 @@
         endif
     " }
 
+    " SQL {
+        if count(g:spf13_bundle_groups, 'sql')
+            Bundle 'vim-scripts/dbext.vim'
+            Bundle 'smintz/vim-sqlutil'
+        endif
+    " }
     endif
 
 " }
