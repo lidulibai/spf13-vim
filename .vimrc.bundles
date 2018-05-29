@@ -126,7 +126,6 @@
             Bundle 'jistr/vim-nerdtree-tabs'
             Bundle 'flazz/vim-colorschemes'
             Bundle 'mbbill/undotree'
-            Bundle 'nathanaelkane/vim-indent-guides'
             if !exists('g:spf13_no_views')
                 Bundle 'vim-scripts/restore_view.vim'
             endif
@@ -294,6 +293,8 @@
             Bundle 'cespare/vim-toml'
             Bundle 'quentindecock/vim-cucumber-align-pipes'
             Bundle 'saltstack/salt-vim'
+            Bundle 'iamcco/mathjax-support-for-mkdp'
+            Bundle 'iamcco/markdown-preview.vim'
         endif
     " }
 
