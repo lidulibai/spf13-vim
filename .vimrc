@@ -713,7 +713,8 @@
         if count(g:spf13_bundle_groups, 'youcompleteme')
             let g:acp_enableAtStartup = 0
 
-            nnoremap <leader>jd :YcmCompleter GoTo<CR>
+            nnoremap <leader>jd :YcmCompleter GetDoc<CR>
+            nnoremap <leader>jg :YcmCompleter GoTo<CR>
             nnoremap <leader>ji :YcmCompleter OrganizeImports<CR>
             nnoremap <leader>jf :YcmCompleter Format<CR>
             nnoremap <leader>jx :YcmCompleter FixIt<CR>
